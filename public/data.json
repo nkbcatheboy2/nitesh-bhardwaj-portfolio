@@ -3,7 +3,7 @@
     "name": "Nitesh Bhardwaj",
     "role": "Professional React & Frontend Developer",
     "bio": "Detail-oriented Software Engineer & Frontend Developer with a BCA background. Experienced in modern web interfaces, React JS, Node.js, and project lifecycles. Passionate about creating seamless user experiences and building smart AI assistants like J.A.R.V.I.S.",
-    "profileImage": "src/Image/profile.jpg",
+    "profileImage": "/Image/profile.jpg",
     "cvLink": "#"
   },
   "skills": ["React.js", "JavaScript (ES6+)", "Tailwind CSS", "Node.js", "Express JS", "PHP", "MySQLi", "WordPress"],

@@ -16,6 +16,14 @@ const Videos = () => {
       // YouTube video ID 'jegdY-Woz6s' use karke auto-thumbnail nikal liya
       thumbnail: "https://img.youtube.com/vi/jegdY-Woz6s/maxresdefault.jpg", 
       link: "https://youtu.be/jegdY-Woz6s?si=2f-BHgFtbS7JoSDe"
+    },
+    {
+      id: "vid_2",
+      type: "YouTube Video",
+      title: "Project Walkthrough", // Yahan apni video ka asli title likh lena
+      desc: "Detailed walkthrough of my latest project implementation.",
+      thumbnail: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=600",
+      link: "https://www.youtube.com/@bcatheboy2_nk" // Agar tumhara video abhi private hai toh channel link de do, jaise ki yeh
     }
   ];
 

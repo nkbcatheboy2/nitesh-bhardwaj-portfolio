@@ -21,11 +21,14 @@ const Navbar = () => {
             <Link to="/about" className="text-slate-300 hover:text-cyan-400 font-medium transition-colors duration-200">
               About
             </Link>
+            <Link to="/services" className="text-slate-300 hover:text-cyan-400 font-medium transition-colors duration-200">
+              Services
+            </Link>
 
             {/* Services Dropdown (Hover Control) */}
             <div className="relative group py-2">
               <button className="text-slate-300 group-hover:text-cyan-400 font-medium flex items-center gap-1 transition-colors duration-200">
-                Services
+                SKILLS
                 <span className="text-xs transition-transform duration-200 group-hover:rotate-180">▼</span>
               </button>
               <div className="absolute right-0 top-full w-44 bg-slate-950 border border-slate-800 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">

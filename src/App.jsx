@@ -1,9 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About'; 
-import Services from './pages/Services';      
+import Services from './pages/services';      
 import Projects from './pages/Projects';   
 import Skills from './pages/Skills';       
 import Contact from './pages/Contact';     
@@ -45,6 +46,7 @@ function App() {
         </footer>
 
       </div>
+      <Analytics />
     </Router>
   );
 }

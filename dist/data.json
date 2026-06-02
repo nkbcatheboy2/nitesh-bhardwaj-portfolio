@@ -1,0 +1,56 @@
+{
+  "personalDetails": {
+    "name": "Nitesh Bhardwaj",
+    "role": "Professional React & Frontend Developer",
+    "bio": "Detail-oriented Software Engineer & Frontend Developer with a BCA background. Experienced in modern web interfaces, React JS, Node.js, and project lifecycles. Passionate about creating seamless user experiences and building smart AI assistants like J.A.R.V.I.S.",
+    "profileImage": "src/Image/profile.jpg",
+    "cvLink": "#"
+  },
+  "skills": ["React.js", "JavaScript (ES6+)", "Tailwind CSS", "Node.js", "Express JS", "PHP", "MySQLi", "WordPress"],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Enterprise Employee Management System (EMS)",
+      "tech": "React JS, Node.js, Express, Firebase",
+      "description": "Automated core HR functions, employee tracking, and secure role-based access control.",
+      "github": "https://github.com/nkbcatheboy2",
+      "images": [
+        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=600",
+        "https://images.unsplash.com/photo-1524749292158-7540c2494485?auto=format&fit=crop&q=80&w=600",
+        "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&q=80&w=600"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "TransGlobal Express Corporate Platform",
+      "tech": "WordPress, PHP, MySQLi, JavaScript",
+      "description": "Engineered and deployed a highly responsive corporate web platform for a leading import-export firm.",
+      "live": "https://TGExpress.in",
+      "images": [
+        "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&q=80&w=600",
+        "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=600",
+        "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&q=80&w=600"
+      ]
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Building Dynamic Frontends with React & Vite",
+      "type": "Article",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "title": "How I Design Modern UI components using Tailwind",
+      "type": "YouTube Video",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "title": "Building the Future: Integrating AI Core Engines into Modern React Architectures",
+      "type": "Article",
+      "link": "#"
+    }
+  ]
+}

@@ -1,9 +1,6 @@
-Bhai, tumhara code ekdum futuristic aur solid lag raha hai! J.A.R.V.I.S. terminal theme aur infinite scroll ne isko sach mein next-level bana diya hai. GitHub par apna project showcase karne ke liye ek perfect, professional aur eye-catching description aur README.md file ka content niche diya gaya hai. Tum isko direct copy-paste kar sakte ho.
-
-📌 Short Description (For GitHub Repository "About" Section)
+**📌 Short Description**
 A futuristic, AI-inspired personal engineering portfolio built with React, Vite, and Tailwind CSS. Features a J.A.R.V.I.S. style terminal UI, an infinite marquee social feed, and seamless Formspree integration.
 
-📖 README.md File Content
 ⚡ Nitesh Bhardwaj | Engineering Portfolio
 A highly responsive, dark-themed personal portfolio showcasing core competencies, credentials, and live project architectures. Designed with a futuristic AI-inspired interface, it bridges the gap between modern front-end aesthetics and clean data management.
 

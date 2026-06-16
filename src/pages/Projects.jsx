@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
-// Chota sa Image Slider Component jo har project card ke andar chalega
 const ProjectSlider = ({ images, title }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Automatic slide badalne ke liye (Optional - har 4 second mein)
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
@@ -29,7 +27,6 @@ const ProjectSlider = ({ images, title }) => {
         ))}
       </div>
 
-      {/* Left/Right Manual Buttons (Hover karne par dikhenge) */}
       <button 
         onClick={(e) => { e.preventDefault(); setCurrentIndex((currentIndex - 1 + images.length) % images.length); }}
         className="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 bg-slate-950/70 border border-slate-800 rounded-full flex items-center justify-center text-xs text-slate-300 opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-cyan-500 hover:text-slate-900"

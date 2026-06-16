@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 const Articles = () => {
   const [articles, setArticles] = useState([]);
   
-  // Pop-up Modal ke liye local states
   const [isOpen, setIsOpen] = useState(false);
   const [activeArticle, setActiveArticle] = useState(null);
 
@@ -17,18 +16,16 @@ const Articles = () => {
       .catch((err) => console.error("Articles load nahi hue bhai:", err));
   }, []);
 
-  // Pop-up kholne ka function
   const openModal = (article) => {
     setActiveArticle(article);
     setIsOpen(true);
-    document.body.style.overflow = 'hidden'; // Niche ka background scroll na ho
+    document.body.style.overflow = 'hidden'; 
   };
 
-  // Pop-up band karne ka function
   const closeModal = () => {
     setIsOpen(false);
     setActiveArticle(null);
-    document.body.style.overflow = 'unset'; // Scroll wapas normal karein
+    document.body.style.overflow = 'unset';
   };
 
   return (

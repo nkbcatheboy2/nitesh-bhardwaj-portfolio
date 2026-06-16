@@ -109,7 +109,7 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-slate-900 text-slate-100 font-sans selection:bg-cyan-500 selection:text-slate-900 flex flex-col justify-between overflow-x-hidden">
       
-      {/* Dynamic CSS for Infinite Marquee Scroll */}
+  
       <style>
         {`
           @keyframes scroll-left {
@@ -129,7 +129,7 @@ const Home = () => {
 
       <div className="flex-grow">
         
-        {/* ================= SECTION 1: HERO & JARVIS ================= */}
+        {/* ================= SECTION 1: HERO ================= */}
         <section className="min-h-screen flex items-center justify-center px-6 pt-24 pb-12 lg:pb-0">
           <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12 animate-fade-in w-full">
             

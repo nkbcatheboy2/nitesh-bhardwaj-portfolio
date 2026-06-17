@@ -177,7 +177,7 @@ const Home = () => {
                   download="Nitesh_Bhardwaj_CV.pdf"
                   className="px-6 py-3 text-sm font-bold text-slate-900 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-lg shadow-lg hover:shadow-cyan-500/20 hover:scale-105 transition-all duration-300"
                 >
-                  Download CV 📄
+                  Download My CV 📄
                 </a>
                 <a 
                   href="#projects" 
@@ -188,7 +188,7 @@ const Home = () => {
               </div>
             </div>
 
-            {/* Right Profile & Terminal */}
+            {/* Right Profile & Terminal view */}
             <div className="flex-1 flex flex-col items-center justify-center gap-6 w-full max-w-sm mx-auto">
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full blur opacity-30 group-hover:opacity-60 transition duration-500"></div>
@@ -220,7 +220,7 @@ const Home = () => {
           </div>
         </section>
 
-        {/* ================= SECTION 2: MINI ABOUT ================= */}
+        {/* ================= SECTION 2: MINI ABOUT View ================= */}
         <section className="py-20 px-6 bg-slate-950/30 border-t border-slate-800/50">
           <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
             <div className="md:col-span-2 space-y-4">

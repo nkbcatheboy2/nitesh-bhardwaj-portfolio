@@ -7,12 +7,12 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           
-          {/* Logo / Name */}
+         
           <Link to="/" className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent hover:scale-105 transition-transform duration-200">
             Nitesh.Dev
           </Link>
 
-          {/* Navigation Links */}
+         
           <div className="flex items-center space-x-8">
             <Link to="/" className="text-slate-300 hover:text-cyan-400 font-medium transition-colors duration-200">
               Home
@@ -25,7 +25,7 @@ const Navbar = () => {
               Services
             </Link>
 
-            {/* Services Dropdown (Hover Control) */}
+            
             <div className="relative group py-2">
               <button className="text-slate-300 group-hover:text-cyan-400 font-medium flex items-center gap-1 transition-colors duration-200">
                 SKILLS
@@ -38,7 +38,7 @@ const Navbar = () => {
               </div>
             </div>
 
-            {/* Blog Dropdown (Hover Control) */}
+           
             <div className="relative group py-2">
               <button className="text-slate-300 group-hover:text-purple-400 font-medium flex items-center gap-1 transition-colors duration-200">
                 Blog

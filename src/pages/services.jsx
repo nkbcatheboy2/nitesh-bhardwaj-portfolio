@@ -4,7 +4,7 @@ const Services = () => {
   const [aadharInput, setAadharInput] = useState('');
   const [systemStatus, setSystemStatus] = useState('Idle');
 
-  // Dummy function to simulate a check
+  
   const handleVerify = (e) => {
     e.preventDefault();
     if (!aadharInput) {

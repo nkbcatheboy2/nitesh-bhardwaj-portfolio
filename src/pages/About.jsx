@@ -14,7 +14,7 @@ const About = () => {
     <div className="min-h-screen bg-slate-900 text-slate-100 pt-24 px-4 sm:px-6 pb-12 overflow-x-hidden">
       <div className="max-w-6xl mx-auto animate-fade-in space-y-16">
         
-        {/* ================= 1. HEADER, PROFILE & SOCIAL LINKS ================= */}
+        
         <div className="flex flex-col md:flex-row items-center md:items-start gap-10">
           
           {/* Glowing Profile Image */}
@@ -28,13 +28,13 @@ const About = () => {
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />
             </div>
-            {/* Small floating badge */}
+            
             <div className="absolute -bottom-4 -right-4 bg-slate-950 border border-slate-800 p-2 rounded-lg shadow-xl">
               <span className="text-xl">💻</span>
             </div>
           </div>
 
-          {/* Heading, Social Links & Top Overview Cards */}
+         
           <div className="flex-1 w-full text-center md:text-left space-y-8">
             <div>
               <h2 className="text-3xl sm:text-4xl font-extrabold bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
@@ -44,10 +44,10 @@ const About = () => {
                 A brief look into my academic background, corporate experience, and skill milestones. I believe in writing clean code and managing projects with absolute precision.
               </p>
 
-              {/* === ATTRACTIVE SOCIAL MEDIA LINKS === */}
+             
               <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 mt-6">
                 
-                {/* LinkedIn */}
+                
                 <a 
                   href="https://www.linkedin.com/in/bcatheboy2/" 
                   target="_blank" rel="noreferrer"
@@ -57,7 +57,7 @@ const About = () => {
                   LinkedIn
                 </a>
 
-                {/* GitHub */}
+               
                 <a 
                   href="https://github.com/nkbcatheboy2" 
                   target="_blank" rel="noreferrer"
@@ -67,7 +67,7 @@ const About = () => {
                   GitHub
                 </a>
 
-                {/* WhatsApp */}
+                
                 <a 
                   href="https://wa.me/917897130368" 
                   target="_blank" rel="noreferrer"

@@ -9,7 +9,7 @@ import Skills from './pages/Skills';
 import Contact from './pages/Contact';     
 import Articles from './pages/Articles';   
 import Videos from './pages/Videos';       
-import Admin from './pages/Admin';         // <-- Naya Admin Page Import
+import Admin from './pages/Admin';         
 
 function App() {
   return (
@@ -28,11 +28,11 @@ function App() {
             <Route path="/contact" element={<Contact />} />    
             <Route path="/articles" element={<Articles />} />  
             <Route path="/videos" element={<Videos />} />      
-            <Route path="/admin" element={<Admin />} />        {/* <-- Admin Route Add Ho Gaya */}
+            <Route path="/admin" element={<Admin />} />       
           </Routes>
         </div>
 
-        {/* Global Footer */}
+       
         <footer className="w-full backdrop-blur-md bg-slate-950 border-t border-slate-800/80 py-6 px-6 text-center text-xs text-slate-500 mt-12">
           <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
             <p>© {new Date().getFullYear()} Nitesh Bhardwaj. Built with React & Tailwind CSS.[cite: 1]</p>
